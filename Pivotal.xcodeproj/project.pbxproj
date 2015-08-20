@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		B29ED0E21A94E2D7005ABADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29ED0E11A94E2D7005ABADC /* AppDelegate.swift */; };
 		B29ED0E51A94E2D7005ABADC /* Pivotal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B29ED0E31A94E2D7005ABADC /* Pivotal.xcdatamodeld */; };
-		B29ED0E71A94E2D7005ABADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29ED0E61A94E2D7005ABADC /* ViewController.swift */; };
+		B29ED0E71A94E2D7005ABADC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29ED0E61A94E2D7005ABADC /* LoginViewController.swift */; };
 		B29ED0EA1A94E2D7005ABADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29ED0E81A94E2D7005ABADC /* Main.storyboard */; };
 		B29ED0EC1A94E2D7005ABADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29ED0EB1A94E2D7005ABADC /* Images.xcassets */; };
 		B29ED0EF1A94E2D7005ABADC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29ED0ED1A94E2D7005ABADC /* LaunchScreen.xib */; };
 		B29ED0FB1A94E2D7005ABADC /* PivotalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29ED0FA1A94E2D7005ABADC /* PivotalTests.swift */; };
+		B2FD0BCF1B856918002870AC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BCE1B856918002870AC /* AboutViewController.swift */; };
+		B2FD0BD11B85790B002870AC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BD01B85790B002870AC /* SignUpViewController.swift */; };
+		B2FD0BD31B859D7E002870AC /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BD21B859D7E002870AC /* ForgotPasswordViewController.swift */; };
+		B2FD0BD51B859F4A002870AC /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BD41B859F4A002870AC /* MaintenanceViewController.swift */; };
+		B2FD0BD71B85A065002870AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BD61B85A065002870AC /* HomeViewController.swift */; };
+		B2FD0BD91B85A0B7002870AC /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BD81B85A0B7002870AC /* OnlineViewController.swift */; };
+		B2FD0BDB1B85A133002870AC /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BDA1B85A133002870AC /* PersonalViewController.swift */; };
+		B2FD0BDD1B85A1BF002870AC /* PudoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BDC1B85A1BF002870AC /* PudoViewController.swift */; };
+		B2FD0BDF1B85A33C002870AC /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BDE1B85A33C002870AC /* ShoppingViewController.swift */; };
+		B2FD0BE11B85A43D002870AC /* RunErrandApprovedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BE01B85A43D002870AC /* RunErrandApprovedViewController.swift */; };
+		B2FD0BE31B85A4DE002870AC /* RunErrandUnapprovedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD0BE21B85A4DE002870AC /* RunErrandUnapprovedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +42,24 @@
 		B29ED0E01A94E2D7005ABADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29ED0E11A94E2D7005ABADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29ED0E41A94E2D7005ABADC /* Pivotal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pivotal.xcdatamodel; sourceTree = "<group>"; };
-		B29ED0E61A94E2D7005ABADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B29ED0E61A94E2D7005ABADC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B29ED0E91A94E2D7005ABADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29ED0EB1A94E2D7005ABADC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B29ED0EE1A94E2D7005ABADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B29ED0F41A94E2D7005ABADC /* PivotalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PivotalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29ED0F91A94E2D7005ABADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29ED0FA1A94E2D7005ABADC /* PivotalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotalTests.swift; sourceTree = "<group>"; };
+		B2FD0BCE1B856918002870AC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		B2FD0BD01B85790B002870AC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B2FD0BD21B859D7E002870AC /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B2FD0BD41B859F4A002870AC /* MaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		B2FD0BD61B85A065002870AC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B2FD0BD81B85A0B7002870AC /* OnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
+		B2FD0BDA1B85A133002870AC /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		B2FD0BDC1B85A1BF002870AC /* PudoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PudoViewController.swift; sourceTree = "<group>"; };
+		B2FD0BDE1B85A33C002870AC /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		B2FD0BE01B85A43D002870AC /* RunErrandApprovedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunErrandApprovedViewController.swift; sourceTree = "<group>"; };
+		B2FD0BE21B85A4DE002870AC /* RunErrandUnapprovedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunErrandUnapprovedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +102,23 @@
 			isa = PBXGroup;
 			children = (
 				B29ED0E11A94E2D7005ABADC /* AppDelegate.swift */,
-				B29ED0E61A94E2D7005ABADC /* ViewController.swift */,
+				B2FD0BD01B85790B002870AC /* SignUpViewController.swift */,
+				B29ED0E61A94E2D7005ABADC /* LoginViewController.swift */,
+				B2FD0BCE1B856918002870AC /* AboutViewController.swift */,
 				B29ED0E81A94E2D7005ABADC /* Main.storyboard */,
 				B29ED0EB1A94E2D7005ABADC /* Images.xcassets */,
 				B29ED0ED1A94E2D7005ABADC /* LaunchScreen.xib */,
 				B29ED0E31A94E2D7005ABADC /* Pivotal.xcdatamodeld */,
 				B29ED0DF1A94E2D7005ABADC /* Supporting Files */,
+				B2FD0BD21B859D7E002870AC /* ForgotPasswordViewController.swift */,
+				B2FD0BD41B859F4A002870AC /* MaintenanceViewController.swift */,
+				B2FD0BD61B85A065002870AC /* HomeViewController.swift */,
+				B2FD0BD81B85A0B7002870AC /* OnlineViewController.swift */,
+				B2FD0BDA1B85A133002870AC /* PersonalViewController.swift */,
+				B2FD0BDC1B85A1BF002870AC /* PudoViewController.swift */,
+				B2FD0BDE1B85A33C002870AC /* ShoppingViewController.swift */,
+				B2FD0BE01B85A43D002870AC /* RunErrandApprovedViewController.swift */,
+				B2FD0BE21B85A4DE002870AC /* RunErrandUnapprovedViewController.swift */,
 			);
 			path = Pivotal;
 			sourceTree = "<group>";
@@ -215,9 +248,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29ED0E71A94E2D7005ABADC /* ViewController.swift in Sources */,
+				B2FD0BD91B85A0B7002870AC /* OnlineViewController.swift in Sources */,
+				B29ED0E71A94E2D7005ABADC /* LoginViewController.swift in Sources */,
+				B2FD0BD51B859F4A002870AC /* MaintenanceViewController.swift in Sources */,
 				B29ED0E21A94E2D7005ABADC /* AppDelegate.swift in Sources */,
+				B2FD0BD71B85A065002870AC /* HomeViewController.swift in Sources */,
+				B2FD0BD31B859D7E002870AC /* ForgotPasswordViewController.swift in Sources */,
+				B2FD0BE31B85A4DE002870AC /* RunErrandUnapprovedViewController.swift in Sources */,
+				B2FD0BDB1B85A133002870AC /* PersonalViewController.swift in Sources */,
+				B2FD0BCF1B856918002870AC /* AboutViewController.swift in Sources */,
 				B29ED0E51A94E2D7005ABADC /* Pivotal.xcdatamodeld in Sources */,
+				B2FD0BE11B85A43D002870AC /* RunErrandApprovedViewController.swift in Sources */,
+				B2FD0BD11B85790B002870AC /* SignUpViewController.swift in Sources */,
+				B2FD0BDF1B85A33C002870AC /* ShoppingViewController.swift in Sources */,
+				B2FD0BDD1B85A1BF002870AC /* PudoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +453,7 @@
 				B29ED1001A94E2D7005ABADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B29ED1011A94E2D7005ABADC /* Build configuration list for PBXNativeTarget "PivotalTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				B29ED1031A94E2D7005ABADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
